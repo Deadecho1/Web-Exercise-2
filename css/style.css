@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div  {
+    display: block;
+}
+
+#logo-container{
+    display: flex;
+    height: 64px;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo{
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    width: 64px;
+    height: 64px;
+}
+
+#logo-name{
+    text-decoration: none;
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 128px;
+    margin-left: 32px;
+    margin-right: 32px;
+    gap: 135px;
+}
+
+nav{
+    display: flex;
+    gap: 64px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #612999;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav .active{
+    font-weight: 700;
+}
+
+nav > a:hover{
+    color: #8a2be2;
+}
