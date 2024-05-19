@@ -120,6 +120,16 @@ h2{
     line-height: 40px;
 }
 
+h3{
+    color: #000;
+    text-align: justify;
+    font-family: Abel;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
 h4{
     color: #333;
     font-family: Nunito;
@@ -193,16 +203,73 @@ main > h2{
     flex-wrap: wrap;
 }
 
+#price-tag{
+    color: #612999;
+    text-align: justify;
+    font-family: Abel;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .card{
     width: 376px;
     height: 496px;
     flex-shrink: 0;
     margin-right: 32px;
     margin-bottom: 27px;
+    position: relative;
 
     border-radius: 38px;
     background: #EFECFF;
     box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
+}
+
+.card img{
+    width: 376px;
+    height: 276px;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: center top;
+
+    border-radius: 38px;
+    background: #FFF;
+    box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
+}
+
+.card h3{
+    margin-top: 21px;
+    margin-left: 32px;
+    margin-bottom: 7px;
+}
+
+.card > p{
+    margin-left: 32px;
+    width: 315px;
+    height: 96px;
+    flex-shrink: 0;
+
+    color: #333;
+    font-family: Abel;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card #price-tag{
+    margin-left: 0px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 36px;
+    left: 32px;
+}
+
+.clear {
+    clear: both;
+    height: 319px;
 }
 
 footer{
