@@ -9,7 +9,7 @@ header, main, footer, nav, aside, section, div  {
 
 .wrapper{
     margin: 0 auto;
-    width: 1200;
+    width: 100%;
     padding-left: 32px;
     padding-right: 32px;
 }
@@ -293,20 +293,14 @@ main > h2{
     justify-content: center;
 }
 
-.shopping-cart-icon{
+.shopping-cart-icon-circle .shopping-cart-icon{
     background: url("../images/shopping-basket\ 2.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; 
     width: 31px;
     height: 31px;
 }
 
-.like-icon{
+.like-icon-circle .like-icon{
     background: url("../images/heart\ 2.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; 
     width: 23px;
     height: 20px;
 }
@@ -354,3 +348,54 @@ footer nav{
     padding-bottom: 16px;
 }
 
+#gallery > img{
+    margin-right: 32px;
+    margin-bottom: 32px;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: center;
+    border: 4px solid #E6DBFE; 
+}
+
+#gallery > img.gallery-long{
+    width: 388px;
+}
+
+.custom-bullet-list{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    list-style-type: none;
+    color: #000;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.custom-bullet-list li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 16px;
+}
+
+.custom-bullet{
+    height: 82px;
+    width: 82px;
+    background-color: #612999;
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-bullet .rocket-icon{
+    background: url("../images/rocket_icon.svg");
+    width: 29px;
+    height: 43px;
+}
