@@ -74,7 +74,10 @@ header, main, footer, nav, aside, section, div  {
 
 header{
     align-items: center;
+    justify-content: space-between;
     height: 128px;
+    padding-left: 32px;
+    padding-right: 120px;
     /*margin-left: 32px;
     margin-right: 32px;/*
     /*gap: 135px; */
@@ -152,9 +155,9 @@ h5{
 }
 
 #promotional{
-    height: 797px;
+    aspect-ratio: 3 / 2;
     width: 100%;
-    background: url("../images/Promotional.png");
+    background: url("../images/Promotional.jpg");
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
