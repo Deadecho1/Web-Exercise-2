@@ -9,7 +9,6 @@ header, main, footer, nav, aside, section, div  {
 
 .wrapper{
     margin: 0 auto;
-    width: 100%;
     padding-left: 32px;
     padding-right: 32px;
 }
@@ -398,4 +397,25 @@ footer nav{
     background: url("../images/rocket_icon.svg");
     width: 29px;
     height: 43px;
+}
+
+#embedded-video{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    background: #EFECFF;
+    
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+#embedded-video iframe{
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
 }
