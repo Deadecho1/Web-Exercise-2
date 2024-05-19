@@ -265,6 +265,52 @@ main > h2{
     left: 32px;
 }
 
+.card > .like-icon-circle{
+    position: absolute;
+    right: 42px;
+    top: 40px;
+    height: 47px;
+    width: 47px;
+    background-color: #EFECFF;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card > .shopping-cart-icon-circle{
+    position: absolute;
+    right: 51px;
+    bottom: 27px;
+    height: 63px;
+    width: 63px;
+    background-color: #612999;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping-cart-icon{
+    background: url("../images/shopping-basket\ 2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    width: 31px;
+    height: 31px;
+}
+
+.like-icon{
+    background: url("../images/heart\ 2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    width: 23px;
+    height: 20px;
+}
+
 .clear {
     clear: both;
     height: 319px;
