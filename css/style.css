@@ -203,16 +203,6 @@ main > h2{
     flex-wrap: wrap;
 }
 
-#price-tag{
-    color: #612999;
-    text-align: justify;
-    font-family: Abel;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 .card{
     width: 376px;
     height: 496px;
@@ -258,7 +248,15 @@ main > h2{
     line-height: normal;
 }
 
-.card #price-tag{
+.card > .price-tag{
+    color: #612999;
+    text-align: justify;
+    font-family: Abel;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
     margin-left: 0px;
     width: auto;
     height: auto;
