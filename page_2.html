@@ -10,83 +10,87 @@
         <meta charset="UTF-8"> 
     </head>
     <body>
-        <header class="f-container">
-            <div id="logo-container" class="f-container">
-                <a href="index.html" id="logo"></a>
-                <a href="index.html" id="logo-name">Games</a>
+        <div class="flex-wrapper">
+            <div class="content">
+                <header class="f-container">
+                    <div id="logo-container" class="f-container">
+                        <a href="index.html" id="logo"></a>
+                        <a href="index.html" id="logo-name">Games</a>
+                    </div>
+                    <nav class="f-container">
+                        <a href="index.html">Home</a>
+                        <a href="#" class="active">Our games</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                </header>
+                <section class="wrapper">
+                    <div id="gallery" class="f-container">
+                        <img src="images/gallery_1.jpg" alt="Gallery_1_Picture">
+                        <img src="images/gallery_2.jpg" alt="Gallery_2_Picture" class="gallery-long">
+                        <img src="images/gallery_3.jpg" alt="Gallery_3_Picture">
+                    </div>
+                    <h2>List of Games</h2>
+                    <ul class="custom-bullet-list">
+                        <li>
+                            <span class="custom-bullet">
+                                <i class="rocket-icon"></i>
+                            </span>
+                            Elden Ring
+                        </li>
+                        <li>
+                            <span class="custom-bullet">
+                                <i class="rocket-icon"></i>
+                            </span>
+                            Fallout New Vegas</li>
+                        <li>
+                            <span class="custom-bullet">
+                                <i class="rocket-icon"></i>
+                            </span>
+                            Dragon's Dogma 2</li>
+                        <li>
+                            <span class="custom-bullet">
+                                <i class="rocket-icon"></i>
+                            </span>
+                            Grand Theft Auto V
+                        </li>
+                    </ul>
+                    <section>
+                        <h2>Elden Ring Intro</h2>
+                        <div id="embedded-video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/SZnJbJKzVP0?si=6ruu2KUbssBNoRz8" title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </section>
+                </section>
             </div>
-            <nav class="f-container">
-                <a href="index.html">Home</a>
-                <a href="#" class="active">Our games</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
-        <section class="wrapper">
-            <div id="gallery" class="f-container">
-                <img src="images/gallery_1.jpg" alt="Gallery_1_Picture">
-                <img src="images/gallery_2.jpg" alt="Gallery_2_Picture" class="gallery-long">
-                <img src="images/gallery_3.jpg" alt="Gallery_3_Picture">
-            </div>
-            <h2>List of Games</h2>
-            <ul class="custom-bullet-list">
-                <li>
-                    <span class="custom-bullet">
-                        <i class="rocket-icon"></i>
-                    </span>
-                    Elden Ring
-                </li>
-                <li>
-                    <span class="custom-bullet">
-                        <i class="rocket-icon"></i>
-                    </span>
-                    Fallout New Vegas</li>
-                <li>
-                    <span class="custom-bullet">
-                        <i class="rocket-icon"></i>
-                    </span>
-                    Dragon's Dogma 2</li>
-                <li>
-                    <span class="custom-bullet">
-                        <i class="rocket-icon"></i>
-                    </span>
-                    Grand Theft Auto V
-                </li>
-            </ul>
-            <section>
-                <h2>Elden Ring Intro</h2>
-                <div id="embedded-video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SZnJbJKzVP0?si=6ruu2KUbssBNoRz8" title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                    </iframe>
-                </div>
-            </section>
-        </section>
-        <div class="clear"></div>
-        <footer class="wrapper f-container">
-            <section>
-                <h4>who we are</h4>
-                <ul class="footer-links">
-                    <li><a href="#top">About</a></li>
-                    <li><a href="#top">Team</a></li>
-                    <li><a href="#top">Work With Us</a></li>
-                </ul>
-                <nav>
-                    <a href="https://x.com/?lang=en" target="_blank" id="twitter-logo"></a>
-                    <a href="https://www.facebook.com/" target="_blank" id="fb-logo"></a>
-                    <a href="https://www.instagram.com/" target="_blank" id="ig-logo"></a>
-                </nav>
-                <small>&copy; 2024 Games</small>
-            </section>
-            <section>
-                <h4>follow us</h4>
-                <ul class="footer-links">
-                    <li><a href="https://x.com/?lang=en" target="_blank">Twitter</a></li>
-                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-                </ul>
-            </section>
-        </footer>
+            <footer class="wrapper f-container">
+                <section>
+                    <h4>who we are</h4>
+                    <ul class="footer-links">
+                        <li><a href="#top">About</a></li>
+                        <li><a href="#top">Team</a></li>
+                        <li><a href="#top">Work With Us</a></li>
+                    </ul>
+                    <nav>
+                        <a href="https://x.com/?lang=en" target="_blank" id="twitter-logo"></a>
+                        <a href="https://www.facebook.com/" target="_blank" id="fb-logo"></a>
+                        <a href="https://www.instagram.com/" target="_blank" id="ig-logo"></a>
+                    </nav>
+                    <small>&copy; 2024 Games</small>
+                </section>
+                <section>
+                    <h4>follow us</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://x.com/?lang=en" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                    </ul>
+                </section>
+            </footer>
+        </div>
+        
     </body>
 </html>

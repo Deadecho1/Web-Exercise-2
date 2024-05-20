@@ -13,8 +13,18 @@ header, main, footer, nav, aside, section, div  {
     padding-right: 32px;
 }
 
+.flex-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .f-container{
     display: flex;
+}
+
+.content{
+    flex: 1;
 }
 
 h1{
@@ -273,11 +283,9 @@ main > h2{
 }
 
 footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 287px;
+    box-sizing: border-box;
     padding-top: 32px;
+    height: 287px;
     width: 100%;
     background-color: #EFECFF;
     display: flex;
