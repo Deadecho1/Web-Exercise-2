@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Exercise 2 Page 2 - Lior Geva</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Abel&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">  
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Exercise 2 Page 2 - Lior Geva</title>
+        <meta charset="UTF-8"> 
     </head>
     <body>
         <header class="f-container">
@@ -22,11 +23,11 @@
             </nav>
         </header>
         <section class="wrapper">
-            <section id="gallery" class="f-container">
-                <img src="images/gallery_1.jpg">
-                <img src="images/gallery_2.jpg" class="gallery-long">
-                <img src="images/gallery_3.jpg">
-            </section>
+            <div id="gallery" class="f-container">
+                <img src="images/gallery_1.jpg" alt="Gallery_1_Picture">
+                <img src="images/gallery_2.jpg" alt="Gallery_2_Picture" class="gallery-long">
+                <img src="images/gallery_3.jpg" alt="Gallery_3_Picture">
+            </div>
             <h2>List of Games</h2>
             <ul class="custom-bullet-list">
                 <li>
@@ -52,12 +53,14 @@
                     Grand Theft Auto V
                 </li>
             </ul>
-            <h2>Elden Ring Intro</h2>
-            <section id="embedded-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/SZnJbJKzVP0?si=6ruu2KUbssBNoRz8" title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                </iframe>
+            <section>
+                <h2>Elden Ring Intro</h2>
+                <div id="embedded-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SZnJbJKzVP0?si=6ruu2KUbssBNoRz8" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
             </section>
         </section>
         <div class="clear"></div>
@@ -74,7 +77,7 @@
                     <a href="https://www.facebook.com/" target="_blank" id="fb-logo"></a>
                     <a href="https://www.instagram.com/" target="_blank" id="ig-logo"></a>
                 </nav>
-                <h5>&copy 2024 Games</h5>
+                <small>&copy; 2024 Games</small>
             </section>
             <section>
                 <h4>follow us</h4>

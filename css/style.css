@@ -140,7 +140,7 @@ h4{
     text-transform: uppercase;
 }
 
-h5{
+small{
     color: #333;
     font-family: Nunito;
     font-size: 16px;
@@ -418,4 +418,8 @@ footer nav{
     left: 2.5%;
     width: 95%;
     height: 95%;
+}
+
+iframe{
+    border: 0px;
 }
