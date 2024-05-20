@@ -17,90 +17,6 @@ header, main, footer, nav, aside, section, div  {
     display: flex;
 }
 
-#logo-container{
-    height: 64px;
-    align-items: center;
-    flex-basis: 387px;
-    gap: 10px;
-}
-
-#logo{
-    background: url("../images/logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; 
-    width: 64px;
-    height: 64px;
-}
-
-#logo-name{
-    text-decoration: none;
-    color: #3E3F43;
-    font-family: Nunito;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 6px;
-}
-
-#twitter-logo{
-    background: url("../images/twitter-logo.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; 
-    width: 25px;
-    height: 20px;
-}
-
-#fb-logo{
-    background: url("../images/fb-logo.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; 
-    width: 20px;
-    height: 20px;
-}
-
-#ig-logo{
-    background: url("../images/ig-logo.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; 
-    width: 20px;
-    height: 20px;
-}
-
-header{
-    align-items: center;
-    justify-content: space-between;
-    height: 128px;
-    padding-left: 32px;
-    padding-right: 120px;
-}
-
-header nav{
-    gap: 64px;
-}
-
-header nav > a{
-    text-decoration: none;
-    color: #612999;
-    font-family: Nunito;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-header nav .active{
-    font-weight: 700;
-}
-
-header nav > a:hover{
-    color: #8a2be2;
-}
-
 h1{
     color: #612999;
     font-family: Nunito;
@@ -140,14 +56,61 @@ h4{
     text-transform: uppercase;
 }
 
-small{
-    color: #333;
+#logo-container{
+    height: 64px;
+    align-items: center;
+    flex-basis: 387px;
+    gap: 10px;
+}
+
+#logo{
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    width: 64px;
+    height: 64px;
+}
+
+#logo-name{
+    text-decoration: none;
+    color: #3E3F43;
     font-family: Nunito;
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
-    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+header{
+    align-items: center;
+    justify-content: space-between;
+    height: 128px;
+    padding-left: 32px;
+    padding-right: 120px;
+}
+
+header nav{
+    gap: 64px;
+}
+
+header nav > a{
+    text-decoration: none;
+    color: #612999;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header nav .active{
+    font-weight: 700;
+}
+
+header nav > a:hover{
+    color: #8a2be2;
 }
 
 #promotional{
@@ -293,13 +256,13 @@ main > h2{
 }
 
 .shopping-cart-icon-circle .shopping-cart-icon{
-    background: url("../images/shopping-basket\ 2.svg");
+    background: url("../images/shopping-basket.svg");
     width: 31px;
     height: 31px;
 }
 
 .like-icon-circle .like-icon{
-    background: url("../images/heart\ 2.svg");
+    background: url("../images/heart.svg");
     width: 23px;
     height: 20px;
 }
@@ -320,8 +283,6 @@ footer{
     display: flex;
     gap: 150px;
 }
-
-
 
 footer ul{
     display: flex;
@@ -345,6 +306,16 @@ footer nav{
     gap: 24px;
     padding-top: 24px;
     padding-bottom: 16px;
+}
+
+small{
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 #gallery > img{
@@ -422,4 +393,31 @@ footer nav{
 
 iframe{
     border: 0px;
+}
+
+#twitter-logo{
+    background: url("../images/twitter-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    width: 25px;
+    height: 20px;
+}
+
+#fb-logo{
+    background: url("../images/fb-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    width: 20px;
+    height: 20px;
+}
+
+#ig-logo{
+    background: url("../images/ig-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    width: 20px;
+    height: 20px;
 }
