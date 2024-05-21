@@ -283,9 +283,11 @@ main > h2{
 }
 
 footer{
-    box-sizing: border-box;
-    padding-top: 32px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     height: 287px;
+    padding-top: 32px;
     width: 100%;
     background-color: #EFECFF;
     display: flex;
